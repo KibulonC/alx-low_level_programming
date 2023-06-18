@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdlib.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Returns a positive,negative or zero outcome
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;

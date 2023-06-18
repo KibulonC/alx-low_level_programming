@@ -9,10 +9,11 @@ int main(void)
 {
 	char let[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWYYZ";
 	int i;
-	for(i = 0; i < 52; i++;)
+
+	for (i = 0; i < 52; i++)
 	{
 		putchar(let[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
